@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="Foundation\img\.gitkeep" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -75,11 +76,56 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\stylize.css" />
+    <Content Include="Foundation\css\foundation.css" />
+    <Content Include="Foundation\css\foundation.min.css" />
+    <Content Include="Foundation\css\normalize.css" />
+    <Content Include="Foundation\humans.txt" />
+    <Content Include="Foundation\index.html" />
+    <Content Include="Foundation\js\foundation.min.js" />
+    <Content Include="Foundation\js\foundation\foundation.abide.js" />
+    <Content Include="Foundation\js\foundation\foundation.accordion.js" />
+    <Content Include="Foundation\js\foundation\foundation.alert.js" />
+    <Content Include="Foundation\js\foundation\foundation.clearing.js" />
+    <Content Include="Foundation\js\foundation\foundation.dropdown.js" />
+    <Content Include="Foundation\js\foundation\foundation.equalizer.js" />
+    <Content Include="Foundation\js\foundation\foundation.interchange.js" />
+    <Content Include="Foundation\js\foundation\foundation.joyride.js" />
+    <Content Include="Foundation\js\foundation\foundation.js" />
+    <Content Include="Foundation\js\foundation\foundation.magellan.js" />
+    <Content Include="Foundation\js\foundation\foundation.offcanvas.js" />
+    <Content Include="Foundation\js\foundation\foundation.orbit.js" />
+    <Content Include="Foundation\js\foundation\foundation.reveal.js" />
+    <Content Include="Foundation\js\foundation\foundation.slider.js" />
+    <Content Include="Foundation\js\foundation\foundation.tab.js" />
+    <Content Include="Foundation\js\foundation\foundation.tooltip.js" />
+    <Content Include="Foundation\js\foundation\foundation.topbar.js" />
+    <Content Include="Foundation\js\vendor\fastclick.js" />
+    <Content Include="Foundation\js\vendor\jquery.cookie.js" />
+    <Content Include="Foundation\js\vendor\jquery.js" />
+    <Content Include="Foundation\js\vendor\modernizr.js" />
+    <Content Include="Foundation\js\vendor\placeholder.js" />
+    <Content Include="Foundation\robots.txt" />
+    <Content Include="images\images-resized\smee-ko.jpg" />
+    <Content Include="images\images-resized\smee.jpg" />
+    <Content Include="images\images-resized\smittens.jpg" />
+    <Content Include="images\images-resized\smittens2.jpg" />
+    <Content Include="images\images-resized\syoo.jpg" />
+    <Content Include="images\kristinottofy.svg" />
+    <Content Include="images\smee-ko-small.jpg" />
+    <Content Include="images\smee-ko.jpg" />
+    <Content Include="images\smee.jpg" />
+    <Content Include="images\smittens.jpg" />
+    <Content Include="images\smittens2.jpg" />
+    <Content Include="images\syoo.jpg" />
+    <Content Include="images\why.svg" />
+    <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

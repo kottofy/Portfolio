@@ -1,0 +1,243 @@
+﻿/*.header {
+    line-height: 10px;
+}*/
+
+/*#logo-image {
+    width: 90px;
+    position: relative;
+    float: none;
+}*/
+
+/*#kristinottofy-image {
+    width: 100%;
+}*/
+
+/*@media only screen and (max-width: 40.0625em) {
+    #logo-image {
+        width: 70px;
+    }
+}*/
+
+/*TOP BAR*/
+.top-bar {
+    background: none;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background: white;
+    color: #009999;
+    font-size: 20px;
+    font-family: Oswald;
+}
+
+.top-bar-section ul li > a {
+    padding: 2px 0 2px 0.9375rem;
+}
+
+@media only screen and (min-width: 40.0625em) {
+    .top-bar-section li:not(.has-form) a:not(.button):hover {
+        background: #009999;
+        color: none;
+    }
+
+    .top-bar-section li.active:not(.has-form) a:not(.button) {
+        background: purple;
+    }
+
+        .top-bar-section li.active:not(.has-form) a:not(.button):hover {
+            background: #009999;
+            color: #fff;
+        }
+}
+
+.top-bar-section ul li.active > a {
+    background: purple !important;
+    color: white !important;
+}
+
+    .top-bar-section ul li.active > a:hover {
+        background: #009999 !important;
+        color: #fff;
+    }
+
+.top-bar.expanded .title-area {
+    background: none;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background: white;
+    color: #009999;
+}
+
+.top-bar-section ul li:hover:not(.has-form) > a {
+    background: #009999;
+}
+
+/*Menu Icon Color*/
+.top-bar .toggle-topbar.menu-icon a span::after {
+    box-shadow: 0px 0px 0px 1px #009999, 0px 7px 0px 1px #009999, 0px 14px 0px 1px #009999 !important;
+}
+
+/*HEADER*/
+h1 {
+    color: #009999 !important;
+    font-family: 'Lobster Two';
+    font-size: 100px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+/*ABOUT*/
+#job-title {
+    background: purple;
+    color: white !important;
+}
+
+.profile {
+    margin-bottom: 0em;
+    font-family: Oswald;
+    color: #009999;
+}
+
+p {
+    font-size: 28px !important;
+}
+
+h2 {
+    color: #009999 !important;
+    font-family: Oswald;
+    font-size: 35px;
+    padding: 3px;
+}
+
+/*LINKS*/
+
+.links {
+    margin-top: 1em;
+}
+
+.link-image {
+    max-width: 80% !important;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+}
+
+.link-text {
+    color: white;
+}
+.link-text:hover {
+    color: white;
+}
+
+h3 {
+    color: white !important;
+    background: purple !important;
+    font-family: Oswald;
+    font-size: 30px;
+    max-width: 80% !important;
+    width: 500px !important;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+}
+
+    h3:hover {
+        background: #009999 !important;
+    }
+
+/*FOOTER*/
+hr {
+    border-color: #009999;
+}
+
+.fa {
+    font-size: 32px !important;
+}
+
+footer {
+    text-align: center;
+}
+
+li.text-center {
+    text-align: center !important;
+}
+
+a {
+    color: #009999;
+}
+
+    a:hover {
+        color: purple;
+    }
+
+/*VERY SLIM SCREEN*/
+@media only screen and (max-width: 445px) {
+    h1 {
+        font-size: 40px !important;
+    }
+
+    h2 {
+        font-size: 20px !important;
+    }
+
+    h3 {
+        font-size: 18px !important;
+    }
+
+    h4 {
+        font-size: 20px !important;
+    }
+
+    p {
+        font-size: 18px !important;
+        margin-bottom: 0em !important;
+    }
+
+    .fa {
+        font-size: 25px !important;
+    }
+
+    .link-image {
+        max-width: 100% !important;
+    }
+
+    h3 {
+        max-width: 100% !important;
+    }
+}
+/*SLIM SCREEN*/
+@media only screen and (min-width: 445px) and (max-width: 40.0625em) {
+    h1 {
+        font-size: 80px;
+    }
+
+    h2 {
+        font-size: 30px !important;
+    }
+
+    h3 {
+        font-size: 20px !important;
+    }
+
+    h4 {
+        font-size: 18px !important;
+    }
+
+    p {
+        font-size: 25px !important;
+        margin-bottom: 0em !important;
+    }
+
+    .fa {
+        font-size: 30px !important;
+    }
+
+    .link-image {
+        max-width: 100% !important;
+    }
+
+    h3 {
+        max-width: 100% !important;
+    }
+}
