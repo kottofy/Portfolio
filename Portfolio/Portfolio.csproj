@@ -69,6 +69,7 @@
     <Content Include="packages.config" />
     <Content Include="Foundation\img\.gitkeep" />
     <None Include="Properties\PublishProfiles\kristinottofy.pubxml" />
+    <None Include="Properties\PublishProfiles\kristinottofyportfolio.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
